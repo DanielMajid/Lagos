@@ -1,0 +1,16 @@
+* {font-family: Georgia, 'Times New Roman', Times, serif;}
+.head {
+    color: #1B7339;
+    background-image: url("photos/Header.jpeg");
+    background-size: cover;
+    min-height: 500px;
+    background-position-y: 15%;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-shadow: -1px -1px 0 #fff;
+}
+    
+.subhead {font-weight:bold
+}
