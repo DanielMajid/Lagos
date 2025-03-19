@@ -1,16 +1,119 @@
-* {font-family: Georgia, 'Times New Roman', Times, serif;}
-.head {
-    color: #1B7339;
-    background-image: url("photos/Header.jpeg");
+* {font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(photos/abstract-honeycomb-with-violet-sand.jpg);
+    background-blend-mode: multiply;
     background-size: cover;
-    min-height: 500px;
-    background-position-y: 15%;
-    background-position-x: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-shadow: -1px -1px 0 #fff;
+    margin: 0;
+    padding-bottom: 30px;
+    color: #707070;
+}
+
+.nav ul li{
+    display:inline-block;
+    padding: .5em;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.main-nav {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-head {
+    color: #fff;
+    background-image: url("photos/Header.jpeg");
+    background-size:cover;
+    min-height: 400px;
+    background-position-y: 28%;
+    text-shadow: -2px -2px 0 #1B7339;
+    padding-bottom: 5px;
 }
     
-.subhead {font-weight:bold
+.subhead {
+    font-weight:bold;
+    padding: 2px 30px;
+    text-align: center;
+}
+
+.site-name {
+    text-align: center;
+    margin: 0;
+    padding-top: 30%;
+    padding-bottom: 2px;
+
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.meet-head {
+    color: #fff;
+    background-image: url("photos/IMG_3466.jpeg");
+    background-size:cover;
+    min-height: 400px;
+    background-position-y: 28%;
+    text-shadow: -2px -2px 0 #1B7339;
+    padding-bottom: 5px;
+}
+
+.supply-head {
+    color: #fff;
+    background-image: url("photos/fabric-shopping-in-lagos7.jpg");
+    background-size:cover;
+    min-height: 400px;
+    background-position-y: 28%;
+    text-shadow: -2px -2px 0 #1B7339;
+    padding-bottom: 5px;
+}
+
+.fabric-head {
+    color: #fff;
+    background-image: url("photos/33c6d2001d9c8e453b12b68189afaa7e.jpg");
+    background-size:cover;
+    min-height: 400px;
+    background-position-y: 28%;
+    text-shadow: -2px -2px 0 #1B7339;
+    padding-bottom: 5px;
+}
+
+.contact-head {
+    color: #fff;
+    background-image: url("photos/istockphoto-643531516-612x612.jpg");
+    background-size:cover;
+    min-height: 400px;
+    background-position-y: 28%;
+    text-shadow: -2px -2px 0 #1B7339;
+    padding-bottom: 5px;
+}
+
+
+.all-button {
+text-align: center;
+}
+
+.form {
+    text-align: center;
 }
