@@ -10,7 +10,7 @@ html, body {
     background-size: cover;
     margin: 0;
     padding-bottom: 30px;
-    color: #707070;
+    color: #ffffffce;
 }
 
 .nav ul li{
@@ -27,8 +27,12 @@ html, body {
 }
 
 .main-nav {
-    text-align: center;
-    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0
+     auto;
+    justify-content: center;
+    
 }
 
 .nav a:hover {
@@ -36,6 +40,7 @@ html, body {
 }
 
 .main-head {
+    flex: 0 0 400px;
     color: #fff;
     background-image: url("photos/Header.jpeg");
     background-size:cover;
