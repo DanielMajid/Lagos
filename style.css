@@ -10,7 +10,7 @@ html, body {
     background-size: cover;
     margin: 0;
     padding-bottom: 30px;
-    color: #ffffffce;
+    color: #ffffff;
 }
 
 .nav ul li{
@@ -29,14 +29,13 @@ html, body {
 .main-nav {
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0
-     auto;
+    flex: 0 0 auto;
     justify-content: center;
     
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgb(201, 95, 95);
 }
 
 .main-head {
@@ -59,6 +58,7 @@ html, body {
 .site-name {
     text-align: center;
     margin: 0;
+    color: #ffffff;
     padding-top: 30%;
     padding-bottom: 2px;
 
